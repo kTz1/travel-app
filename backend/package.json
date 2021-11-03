@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.14.15"
+  },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^6.0.5",
-    "nodemon": "^2.0.12"
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.4.1"
+  },
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -18,3 +24,4 @@
   "author": "",
   "license": "ISC"
 }
+
