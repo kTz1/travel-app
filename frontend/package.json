@@ -43,5 +43,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://git.heroku.com/glacial-anchorage-17861.git/api"
+  "proxy": "https://glacial-anchorage-17861.herokuapp.com//api"
 }
