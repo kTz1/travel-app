@@ -4,7 +4,7 @@ import "./login.scss";
 import axios from "axios";
 
 export default function Login({ setShowLogin, myStorage, setCurrentUser }) {
-    const [error, setError] = useState(null);
+    const [error, setError] = useState(false);
 
     const nameRef = useRef();
     const passwordRef = useRef();
